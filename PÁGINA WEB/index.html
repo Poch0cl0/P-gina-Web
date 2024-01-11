@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÁGINA WEB</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="bg-violet-800 py-6 flex items-center justify-between">
+        <i class="fa-solid fa-gamepad fa-4x pl-7 text-violet-300"></i>
+        <div class="hidden lg:flex" id="ICONOS">
+            <a href="https://twitter.com/" class="fa-brands fa-square-twitter fa-3x pr-7 text-blue-400"></a>
+            <a href="https://www.facebook.com/" class="fa-brands fa-square-facebook fa-3x pr-7 text-blue-600"></a>
+            <a href="https://www.linkedin.com/login/es" class="fa-brands fa-linkedin fa-3x pr-7 text-indigo-300"></a>
+            <a href="https://api.whatsapp.com/send?phone=+51938434561" class="fa-brands fa-square-whatsapp fa-3x pr-7 text-green-600"></a>
+        </div>
+        <button id="Oscuro" class="toggle-button lg:hidden">
+            <i id="iconoModo" class="fas fa-sun fa-2x pr-4 text-orange-500"></i>
+        </button>
+    </header>
+
+    <div  id="NuevoDiv" class="lg:hidden hidden bg-violet-800 py-2 pr-4 pl-4 flex items-end justify-end">
+        <a href="https://twitter.com/" class="fa-brands fa-square-twitter pr-4 fa-2x text-blue-400 mb-2"></a>
+        <a href="https://www.facebook.com/" class="fa-brands fa-square-facebook pr-4 fa-2x text-blue-600 mb-2"></a>
+        <a href="https://www.linkedin.com/login/es" class="fa-brands fa-linkedin pr-4 fa-2x text-indigo-300 mb-2"></a>
+        <a href="https://api.whatsapp.com/send?phone=+51938434561" class="fa-brands fa-square-whatsapp pr-4 fa-2x text-green-600 mb-2"></a>
+    </div>
+
+    <div id="Idiomas" class="py-2 pr-4 pl-4 flex items-end justify-end">
+
+        <div class="pr-4 bg-transparent">
+            <select id="opciones" class=" bg-transparent">
+                <option value="ingles" id="es" class=" bg-transparent"> Inglés</option>
+                <option value="espanol" id="en" class=" bg-transparent"> Español</option>
+                <option value="chino" id="ch" class=" bg-transparent"> Chino</option>
+                <option value="frances" id="fr" class=" bg-transparent"> Francés</option>
+            </select>
+        </div>
+
+        <button id="modoOscuro" class="toggle-button">
+            <i id="iconoModo" class="fas fa-sun fa-2x pr-4 text-orange-500"></i>
+        </button>
+
+    </div>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+            <div class="lg:-mx-6 lg:flex lg:items-center">
+                <img class="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="https://generacionxbox.com/wp-content/uploads/2022/04/Wallpaper-gratis-elden-ring.jpg" alt="">
+    
+                <div class="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
+    
+                    <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl lg:w-96">
+                        SUMÉRGETE EN UN MUNDO DE FANTASÍA
+                    </h1>
+    
+                    <p class="max-w-lg mt-6 text-gray-500 dark:text-gray-400 ">
+                       "No te pierdas las ofertas y descuentos exclusivos que tenemos para ti. ¡Es el momento perfecto para ampliar tu colección de videojuegos! Suma horas de entretenimiento, descubre nuevas narrativas y conquista desafíos épicos."
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-12 mx-auto">
+    
+            <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+                <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <i class="fa-solid fa-check fa-2xl"></i>
+                        </span>
+    
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">En nuestra tienda de videojuegos, te ofrecemos una selección diversa y emocionante que abarca géneros, plataformas y estilos de juego para satisfacer todos los gustos. </h2>
+                    </div>
+    
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <i class="fa-solid fa-check fa-2xl"></i>
+                        </span>
+                        
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Nuestro equipo está compuesto por apasionados jugadores y expertos en la industria, listos para brindarte asesoramiento personalizado. ¿No estás seguro de qué juego elegir? Te ayudaremos</h2>
+                    </div>
+    
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <i class="fa-solid fa-check fa-2xl"></i>
+                        </span>
+                        
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Además de vender juegos, creamos experiencias. Organizamos eventos, torneos y actividades que te permiten conectar con otros gamers. ¡Forma parte de nuestra comunidad y comparte tu pasión por los videojuegos!</h2>
+
+                    </div>
+    
+                    <div>
+                        <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                            <i class="fa-solid fa-check fa-2xl"></i>
+                        </span>
+                        
+                        <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Valoramos a nuestros clientes y queremos recompensar tu lealtad. Disfruta de ofertas exclusivas, descuentos especiales y participa en nuestro programa de fidelidad para obtener beneficios adicionales.</h2>
+
+                    </div>
+                </div>
+    
+                <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+                    <form>
+                        <div class="-mx-2 md:items-center md:flex">
+                            <div class="flex-1 px-2">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Nombre</label>
+                                <input type="text" placeholder="Jefferson" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            </div>
+    
+                            <div class="flex-1 px-2 mt-4 md:mt-0">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Apellido</label>
+                                <input type="text" placeholder="Peña" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            </div>
+                        </div>
+    
+                        <div class="mt-4">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Correo</label>
+                            <input type="email" placeholder="jefferson152530@gmail.com" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+    
+                        
+    
+                        <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-800 rounded-lg hover:bg-indigo-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-8 mx-auto">
+            <h2 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Características</h2>
+    
+            <div class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="w-full max-w-xs text-center">
+                    <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://imgmedia.larepublica.pe/640x371/larepublica/original/2021/02/09/6022ed8d2b9fbe3e40104504.webp" alt="avatar" />
+    
+                    <div class="mt-2">
+                        <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Área de personalización de consolas</h3>
+                    </div>
+                </div>
+    
+                <div class="w-full max-w-xs text-center">
+                    <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://hiraoka.com.pe/media/mageplaza/blog/post/c/o/como-armar-setup-gamer-mas-epico-zona-gaming-pc-gamer.jpg" alt="avatar" />
+    
+                    <div class="mt-2">
+                        <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Área recreativa</h3>
+                    </div>
+                </div>
+    
+                <div class="w-full max-w-xs text-center">
+                    <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://gtsinformatica.com/wp-content/uploads/2020/10/reparacion-de-consolas.jpg.webp" alt="avatar" />
+    
+                    <div class="mt-2">
+                        <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Zona de reparacion de consolas</h3>
+
+                    </div>
+                </div>
+    
+                <div class="w-full max-w-xs text-center">
+                    <img class="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://pbs.twimg.com/media/FJWDsZEWUAEkDy9?format=jpg&name=large" alt="avatar" />
+    
+                    <div class="mt-2">
+                        <h3 class="text-lg font-medium text-gray-700 dark:text-gray-200">Zona de intercambio de juegos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="oscuro.js"></script> 
+    <script src="funcion.js"></script> 
+    
+
+</body>
+
+</html>
